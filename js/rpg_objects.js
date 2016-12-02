@@ -7660,12 +7660,13 @@ Game_Player.prototype.updateDashing = function() {
 };
 
 Game_Player.prototype.isDashButtonPressed = function() {
-    var shift = Input.isPressed('shift');
-    if (ConfigManager.alwaysDash) {
-        return !shift;
-    } else {
-        return shift;
-    }
+    return false;
+    // var shift = Input.isPressed('shift');
+    // if (ConfigManager.alwaysDash) {
+    //     return !shift;
+    // } else {
+    //     return shift;
+    // }
 };
 
 Game_Player.prototype.updateScroll = function(lastScrolledX, lastScrolledY) {

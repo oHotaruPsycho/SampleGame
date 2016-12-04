@@ -15,5 +15,5 @@ var $plugins =
 {"name":"MessageSE","status":true,"description":"メッセージ中にSEを演奏する","parameters":{"SeData1":"Hotaru","SeData2":"60","SeData3":"100","SeData4":"0","SeWait":"2","StopSeSw":"1"}},
 {"name":"EnemyAnimetion","status":true,"description":"","parameters":{}},
 {"name":"RotationMoveGraphic","status":true,"description":"","parameters":{}},
-{"name":"HalfMove","status":true,"description":"半歩移動プラグイン","parameters":{"8方向移動":"ON","イベントすり抜け":"OFF","強制中無効":"ON","角回避":"ON","斜め移動中減速":"OFF","トリガー拡大":"OFF","実歩数調整":"OFF","上半分移動不可地形":"0","上半分移動不可Region":"0","下半分移動不可地形":"0","下半分移動不可Region":"0","右半分移動不可地形":"0","右半分移動不可Region":"0","左半分移動不可地形":"0","左半分移動不可Region":"0","イベント複数起動防止":"OFF","イベント位置重複OK":"OFF"}}
+{"name":"HalfMove","status":false,"description":"半歩移動プラグイン","parameters":{"8方向移動":"ON","イベントすり抜け":"OFF","強制中無効":"ON","角回避":"ON","斜め移動中減速":"OFF","トリガー拡大":"OFF","実歩数調整":"OFF","上半分移動不可地形":"0","上半分移動不可Region":"0","下半分移動不可地形":"0","下半分移動不可Region":"0","右半分移動不可地形":"0","右半分移動不可Region":"0","左半分移動不可地形":"0","左半分移動不可Region":"0","イベント複数起動防止":"OFF","イベント位置重複OK":"OFF"}}
 ];
